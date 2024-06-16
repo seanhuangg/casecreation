@@ -1,6 +1,5 @@
 import { shippingAddress } from "@prisma/client"
 import { Body, Column, Container, Head, Heading, Hr, Html, Img, Preview, Row, Section, Text } from "@react-email/components"
-import { useEffect } from 'react';
 
 const orderReceivedEmail = ({
     shippingAddress,
@@ -53,7 +52,7 @@ const orderReceivedEmail = ({
                                     {orderId}
                                 </Text>
                             </Column>
-                            <Column>
+                            <Column style={{ marginLeft: 20 }}>
                                 <Text style={global.paragraphWithBold}>
                                     Order Date
                                 </Text>
