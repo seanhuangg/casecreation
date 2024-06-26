@@ -1,7 +1,7 @@
 import { shippingAddress } from "@prisma/client"
 import { Body, Column, Container, Head, Heading, Hr, Html, Img, Preview, Row, Section, Text } from "@react-email/components"
 
-const orderReceivedEmail = ({
+const OrderReceivedEmail = ({
     shippingAddress,
     orderId,
     orderDate
@@ -185,4 +185,4 @@ const footer = {
     } as React.CSSProperties,
 }
 
-export default orderReceivedEmail
+export default OrderReceivedEmail

@@ -12,14 +12,14 @@ const LoginModal = ({ isOpen, setIsOpen }: {
         <DialogContent className="absolute z-[9999999]">
             <DialogHeader>
                 <div className="relative mx-auto w-24 h-24 mb-2">
-                    <Image src="/snake-1.png" alt="logo image" className="object-contain" fill />
+                    <Image src="/favicon.ico" alt="logo image" className="object-contain" fill />
                 </div>
                 <DialogTitle className="text-3xl text-center font-bold tracking-tight text-gray-900">
                     Please Log in to continue
                 </DialogTitle>
                 <DialogDescription className="text-base text-center py-2">
                     <span className="font-medium text-zinc-900">
-                        But, your configuration has been saved!
+                        Your progress has been saved!
                     </span>{' '}
                     Please login or create an account to complete your purchase.
                 </DialogDescription>

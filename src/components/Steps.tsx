@@ -30,7 +30,7 @@ const Steps = () => {
                 const isCurrent = pathname.endsWith(step.url);
                 const isCompleted = pathname.startsWith(step.url) || STEPS.slice(0, i).some((s) => pathname.endsWith(s.url));
 
-                const imgPath = `/snake-${i + 1}.png`;
+                const imgPath = `/step-${i + 1}.png`;
 
                 return (
                     <li key={step.name} className="relative overflow-hidden lg:flex-1">

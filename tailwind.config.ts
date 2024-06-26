@@ -1,4 +1,5 @@
 import { transform } from "next/dist/build/swc";
+import { Archivo } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -70,11 +71,31 @@ const config: Config = {
         flashing: {
           "0%, 100%": { opacity: "0.2" },
           "20%": { opacity: "1" },
+        },
+        fadeIn: {
+          '0%': { opacity: "0", transform: "translateY(-10px)" },
+          '100%': { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeInDelayed: {
+          '0%': { opacity: "0", transform: "translateY(-10px)" },
+          '100%': { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeInDelayed2: {
+          '0%': { opacity: "0", transform: "translateY(-10px)" },
+          '100%': { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeInLeft: {
+          '0%': { opacity: "0", transform: "translateX(-10px)" },
+          '100%': { opacity: "1", transform: "translateX(0)" },
         }
       },
       animation: {
         marquee: 'marquee var(--marquee-duration) linear infinite',
         "fade-in": "fade-in 0.5s linear forwards",
+        fadeIn: "fadeIn 0.8s ease-in-out",
+        fadeInDelayed: "fadeIn 0.5s ease-in-out 0.3s both",
+        fadeInDelayed2: "fadeIn 0.5s ease-in-out 0.6s both",
+        fadeInLeft: "fadeInLeft 0.5s ease-in-out 0.8s both",
         flashing: "flashing 1.4s infinite linear",
       },
     },

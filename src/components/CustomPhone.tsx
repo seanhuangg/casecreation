@@ -4,6 +4,7 @@ import { HTMLAttributes } from 'react'
 interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
   imgSrc: string
   dark?: boolean
+  imgClassName?: string
 }
 
 const CustomPhone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
@@ -20,7 +21,7 @@ const CustomPhone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) 
             ? '/phone-template-dark-edges.png'
             : '/phone-template-white-edges.png'
         }
-        className='pointer-events-none z-50 select-none'
+        className='pointer-events-none z-50 select-none '
         alt='phone image'
       />
 
