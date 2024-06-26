@@ -5,7 +5,6 @@ import { getPaymentStatus } from "./actions"
 import { useSearchParams } from "next/navigation"
 import { Loader2 } from "lucide-react"
 import PhonePreview from "@/components/PhonePreview"
-import { config } from "process"
 import { formatPrice } from "@/lib/utils"
 
 const ThankYou = () => {
