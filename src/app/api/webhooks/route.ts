@@ -4,7 +4,7 @@ import { headers } from "next/headers"
 import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { Resend } from "resend"
-import orderReceivedEmail from "@/components/emails/OrderReceivedEmail"
+import OrderReceivedEmail from "@/components/emails/OrderReceivedEmail"
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
@@ -68,7 +68,7 @@ export async function POST(req: Request) {
                 from: "CaseCreations <sean.huang@torontomu.ca>",
                 to: [event.data.object.customer_details.email],
                 subject: "Thank you for ordering from CaseCreations",
-                react: orderReceivedEmail({
+                react: OrderReceivedEmail({
                     orderId,
                     orderDate: updatedOrder.createdAt.toLocaleDateString(),
                     //@ts-ignore
