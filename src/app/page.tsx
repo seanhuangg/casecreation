@@ -247,7 +247,7 @@ export default function Home() {
                 />
               </div>
 
-              <Phone data-aos="fade-down" className='w-60' imgSrc='/horse_phone.jpg' />
+              <Phone data-aos="fade-down" className='w-60' imgSrc='/family_phone.jpg' />
             </div>
           </div>
 
