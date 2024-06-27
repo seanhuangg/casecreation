@@ -242,7 +242,7 @@ export default function Home() {
               <div className='relative h-80 md:h-full w-full md:justify-self-end max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 lg:rounded-2xl'>
                 <img
                   data-aos="fade-down"
-                  src='/horse.jpg'
+                  src='/family.jpg'
                   className='rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 h-full w-full'
                 />
               </div>
