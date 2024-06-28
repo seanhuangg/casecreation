@@ -66,7 +66,7 @@ const Navbar = async () => {
                     size: 'sm',
                     variant: 'ghost',
                   })}>
-                  Sign in
+                  Log in
                 </Link>
 
                 <div className='h-8 w-px bg-zinc-200 hidden sm:block' />

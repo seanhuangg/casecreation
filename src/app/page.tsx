@@ -28,9 +28,9 @@ export default function Home() {
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
                 <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
               </div>
-              <h1 className='animate-fadeIn relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
-                Your Image on a{' '}
-                <span className='bg-indigo-400 px-2 text-white'>Custom</span>{' '}
+              <h1 className='animate-fadeIn relative w-fit tracking-tight text-balance mt-16 font-bold border-r-4 !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
+                Your Very Own{' '}
+                <span className='bg-indigo-400 px-2 rounded-lg text-white'>Custom</span>{' '}
                 Phone Case
               </h1>
               <p className='animate-fadeInDelayed mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
@@ -135,7 +135,7 @@ export default function Home() {
             <img data-aos="fade-down" src='/pointdown.png' className='w-24 order-0 lg:order-2' />
           </div>
 
-          <div className='mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16'>
+          <div className='pb-8 mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16'>
             <div className='flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20'>
               <div
                 data-aos="fade-down"
@@ -212,7 +212,16 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
 
-        <div className='pt-16'>
+        <div className='pt-24'>
+          <h2
+            data-aos="fade-down"
+            className='order-1 pb-12 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900'>
+            Capture Your
+            <span className='relative px-2'>
+              Best Memories
+              <Icons.underline className='hidden sm:block pointer-events-none absolute inset-x-0 -bottom-8 text-blue-400' />
+            </span>
+          </h2>
           <Reviews />
         </div>
       </section>
@@ -224,7 +233,7 @@ export default function Home() {
               <h2 data-aos="fade-down"
                 className='order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900'>
                 Upload your photo and get{' '}
-                <span className='relative px-2 bg-indigo-400 text-white'>
+                <span className='relative px-2 rounded-lg bg-indigo-400 text-white'>
                   your own case
                 </span>{' '}
                 now!
@@ -258,14 +267,14 @@ export default function Home() {
             </li>
             <li data-aos="fade-down" className='w-fit'>
               <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
-              Scratch- and fingerprint resistant coating
+              Scratch and fingerprint resistant coating
             </li>
             <li data-aos="fade-down" className='w-fit'>
               <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
               Wireless charging compatible
             </li>
             <li data-aos="fade-down" className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />5 year
+              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />5-year
               print warranty
             </li>
 
@@ -277,7 +286,7 @@ export default function Home() {
                   className: 'mx-auto mt-8',
                 })}
                 href='/configure/upload'>
-                Create your case now <ArrowRight className='h-4 w-4 ml-1.5' />
+                Get Started <ArrowRight className='h-4 w-4 ml-1.5' />
               </Link>
             </div>
           </ul>
