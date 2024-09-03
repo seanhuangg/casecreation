@@ -166,7 +166,7 @@ export default function Home() {
                 <div className='flex flex-col'>
                   <p data-aos="fade-down" className='font-semibold'>Jon</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
-                    <Check className='h-4 w-4 stroke-[3px] text-green-600' />
+                    <Check className='h-4 w-4 stroke-[3px] text-blue-800' />
                     <p data-aos="fade-down" className='text-sm'>Verified Purchase</p>
                   </div>
                 </div>
@@ -202,7 +202,7 @@ export default function Home() {
                 <div className='flex flex-col'>
                   <p data-aos="fade-down" className='font-semibold'>Tony</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
-                    <Check className='h-4 w-4 stroke-[3px] text-green-600' />
+                    <Check className='h-4 w-4 stroke-[3px] text-blue-800' />
                     <p data-aos="fade-down" className='text-sm'>Verified Purchase</p>
                   </div>
                 </div>
