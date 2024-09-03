@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='bg-slate-50 grainy-light'>
+    <div className='bg-slate-900 grainy-light'>
       <section>
         <MaxWidthWrapper className='pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52'>
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
@@ -34,23 +34,23 @@ export default function Home() {
                 Phone Case
               </h1>
               <p className='animate-fadeInDelayed mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
-                Capture your favorite memories with your own,{' '}
+                Capture and engrave your favorite memories with your own,{' '}
                 <span className='font-bold text-zinc-900'>one-of-a-kind</span> phone case.
               </p>
 
               <ul className='animate-fadeInDelayed2 mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start'>
                 <div className='space-y-2'>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-blue-800' />
                     High-quality, durable material
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />5-year
-                    print guarantee
+                    <Check className='h-5 w-5 shrink-0 text-blue-800' />5-year
+                    warranty included
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
-                    Modern iPhone models supported
+                    <Check className='h-5 w-5 shrink-0 text-blue-800' />
+                    Latest iPhone models supported
                   </li>
                 </div>
               </ul>
@@ -94,7 +94,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    <span className='font-semibold'>1,000+</span> happy customers
+                    <span className='font-semibold'>1,000+</span> reviews
                   </p>
                 </div>
               </div>
@@ -148,13 +148,13 @@ export default function Home() {
               </div>
               <div className='text-lg leading-8'>
                 <p data-aos="fade-down">
-                  "The case feels durable and I even got a compliment on the
-                  design. Had the case for two and a half months now and{' '}
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. {' '}
                   <span className='p-0.5 bg-slate-800 text-white'>
-                    the image is super clear
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                   </span>
-                  , on the case I had before, the image started fading into
-                  yellow-ish color after a couple weeks. Love it."
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore."
                 </p>
               </div>
               <div data-aos="fade-down" className='flex gap-4 mt-2'>
@@ -164,7 +164,7 @@ export default function Home() {
                   alt='user'
                 />
                 <div className='flex flex-col'>
-                  <p data-aos="fade-down" className='font-semibold'>Jonathan</p>
+                  <p data-aos="fade-down" className='font-semibold'>Jon</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
                     <Check className='h-4 w-4 stroke-[3px] text-green-600' />
                     <p data-aos="fade-down" className='text-sm'>Verified Purchase</p>
@@ -184,14 +184,13 @@ export default function Home() {
               </div>
               <div className='text-lg leading-8'>
                 <p data-aos="fade-down">
-                  "I usually keep my phone together with my keys in my pocket
-                  and that led to some pretty heavy scratchmarks on all of my
-                  last phone cases. This one, besides a barely noticeable
-                  scratch on the corner,{' '}
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{' '}
                   <span className='p-0.5 bg-slate-800 text-white'>
-                    looks brand new after about half a year
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                   </span>
-                  . I dig it."
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore."
                 </p>
               </div>
               <div data-aos="fade-down" className='flex gap-4 mt-2'>
@@ -201,7 +200,7 @@ export default function Home() {
                   alt='user'
                 />
                 <div className='flex flex-col'>
-                  <p data-aos="fade-down" className='font-semibold'>Josh</p>
+                  <p data-aos="fade-down" className='font-semibold'>Tony</p>
                   <div className='flex gap-1.5 items-center text-zinc-600'>
                     <Check className='h-4 w-4 stroke-[3px] text-green-600' />
                     <p data-aos="fade-down" className='text-sm'>Verified Purchase</p>
