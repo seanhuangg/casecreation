@@ -261,19 +261,19 @@ export default function Home() {
 
           <ul className='mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit'>
             <li data-aos="fade-down" className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-blue-800 inline mr-1.5' />
               High-quality silicone material
             </li>
             <li data-aos="fade-down" className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-blue-800 inline mr-1.5' />
               Scratch and fingerprint resistant coating
             </li>
             <li data-aos="fade-down" className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />
+              <Check className='h-5 w-5 text-blue-800 inline mr-1.5' />
               Wireless charging compatible
             </li>
             <li data-aos="fade-down" className='w-fit'>
-              <Check className='h-5 w-5 text-green-600 inline mr-1.5' />5-year
+              <Check className='h-5 w-5 text-blue-800 inline mr-1.5' />5-year
               print warranty
             </li>
 
